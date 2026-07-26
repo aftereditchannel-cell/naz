@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ما دوتا | خانه‌ی کوچولوی ما</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Estedad:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"><span>♥</span><span>♡</span><span>♥</span><span>✦</span><span>♡</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-heart">♥</span><span><b>ما دوتا</b><small>خانه‌ی کوچولوی ما</small></span></a>
+    <nav class="nav-links" aria-label="ناوبری اصلی">
+      <a class="active" href="index.html">خانه</a><a href="story.html">قصه‌ی ما</a><a href="firsts.html">اولین‌ها</a><a href="games.html">بازی‌خونه</a>
+    </nav>
+    <button class="music-btn" id="musicToggle" aria-label="پخش موسیقی">♫ <span>موزیک ما</span></button>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">یک گوشه‌ی دنج برای دو نفر</p>
+        <h1>اینجا، دنیای <em>دوتایی</em> ماست.</h1>
+        <p class="hero-text">جایی برای نگه‌داشتن خاطره‌ها، خنده‌ها، اولین‌ها و تمام چیزهای گوگولی‌ای که فقط خودمون می‌فهمیم.</p>
+        <div class="hero-actions"><a class="btn primary" href="story.html">بریم توی قصه‌مون <span>←</span></a><a class="text-link" href="games.html">یه بازی کوچولو؟ 🎮</a></div>
+        <div class="mini-stats"><div><strong>∞</strong><span>خاطره‌ی مشترک</span></div><div><strong>۲</strong><span>آدمِ خوشحال</span></div><div><strong>۱</strong><span>عشقِ بزرگ</span></div></div>
+      </div>
+      <div class="polaroid-wrap"><div class="sparkle s1">✦</div><div class="sparkle s2">✧</div><div class="polaroid"><div class="photo-placeholder hero-photo"><img src="images/cover.png" alt="عکس دونفره‌ی ما"><span>ما دوتا، کنار هم</span></div><p>تو + من = بهترین اتفاق دنیا</p><small>با عشق، همیشه</small></div><div class="tape"></div></div>
+    </section>
+
+    <section class="section container"><div class="section-heading"><div><p class="eyebrow">گوشه‌های دوست‌داشتنی</p><h2>هر چیزی که بوی <em>ما</em> می‌ده</h2></div><span class="heading-note">از اینجا شروع کن ✨</span></div>
+      <div class="feature-grid"><a class="feature-card pink" href="story.html"><span class="card-icon">📖</span><h3>قصه‌ی ما</h3><p>از اولین سلام تا همین امروز؛ همه‌چیز اینجاست.</p><span class="arrow">←</span></a><a class="feature-card yellow" href="firsts.html"><span class="card-icon">🌱</span><h3>اولین‌های ما</h3><p>اولین قرار، اولین عکس و آن اولین «دوستت دارم».</p><span class="arrow">←</span></a><a class="feature-card lavender" href="games.html"><span class="card-icon">🎮</span><h3>بازی‌خونه</h3><p>رقابت‌های بانمک و بازی‌های مخصوص دوتایی‌مون.</p><span class="arrow">←</span></a></div>
+    </section>
+
+    <section class="quote-band"><div class="container quote-content"><span class="quote-mark">“</span><p>تو قشنگ‌ترین قسمت تمام روزهای منی.</p><span class="quote-heart">♥</span></div></section>
+    <section class="section container today"><div class="section-heading"><div><p class="eyebrow">یادآوری امروز</p><h2>امروز بهش بگو <em>دوستت دارم</em></h2></div></div><div class="note-card"><span>💌</span><div><h3>یک پیام کوچولو برای عشقِ من</h3><p>ممنون که هستی و دنیا رو برای من جای قشنگ‌تری می‌کنی. همین‌قدر ساده، همین‌قدر عمیق.</p></div><button class="icon-btn" onclick="copyNote()" title="کپی پیام">⌘</button></div></section>
+  </main>
+  <footer><div class="container footer-inner"><div class="brand footer-brand"><span class="brand-heart">♥</span><span><b>ما دوتا</b><small>ساخته شده با کلی عشق</small></span></div><p>برای همه‌ی روزهایی که هنوز با هم نساختیم ♡</p><span class="footer-date">۱۴۰۵ تا همیشه</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
